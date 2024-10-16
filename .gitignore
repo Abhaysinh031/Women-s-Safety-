@@ -1,0 +1,5 @@
+# Ignore IDE settings and temporary files
+.idea/
+Women_safety/db.sqlite3
+Women_safety/debug.log
+Women_safety/mysite/__pycache__/
