@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Safety</title>
+    <style>
+        body {
+            background-image: url('https://www.healthcareradius.in/cloud/2021/11/15/shutterstock_1863097447.jpg');
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.1);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .title {
+            text-align: center;
+            margin-top: 50px;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: #222;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <h1 class="title">Women's Safety</h1>
+
+    <div class="container">
+        <div class="card">
+            <h2>Oxygen</h2>
+            <p>{{ data.field1 }}</p>
+        </div>
+        <div class="card">
+            <h2>Pulse Rate</h2>
+            <p>{{ data.field2 }}</p>
+        </div>
+        <div class="card">
+            <h2>Temperature</h2>
+            <p>{{ data.field3 }}</p>
+        </div>
+        <div class="card">
+            <h2>Latitude</h2>
+            <p>{{ data.field4 }}</p>
+        </div>
+        <div class="card">
+            <h2>Longitude</h2>
+            <p>{{ data.field5 }}</p>
+        </div>
+    </div>
+
+    <script>
+        setTimeout(function(){
+            location.reload();
+        }, 2000);
+    </script>
+</body>
+</html>
