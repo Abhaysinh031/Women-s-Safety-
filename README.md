@@ -18,7 +18,7 @@ Before running the project, ensure you have the following installed:
 
 - Python 3.x
 - Django 4.x or higher
-- Django REST framework (if applicable)
+- Django REST framework 
 - A database (SQLite, PostgreSQL, etc.)
 
 ## Installation
