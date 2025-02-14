@@ -69,9 +69,4 @@ Before running the project, ensure you have the following installed:
 For any inquiries, please reach out to abhysihdes031@gmail.com.
 
 
-### Customization
-- **Project Overview**: You may want to add more details about the specific functionality of your application.
-- **Installation Instructions**: Make sure that the instructions match your project’s requirements.
-- **Usage Instructions**: You can provide more detailed usage instructions, especially if there are specific workflows users should follow.
 
-Feel free to adjust the content as needed! Let me know if you need any further assistance.
